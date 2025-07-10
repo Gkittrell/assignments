@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PuppyPawty - Natural Dog Treats</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #d5e6d0; /* Light forest green */
+      color: #3e3e3e;
+      text-align: center;
+    }
+
+    header {
+      background-color: #a3b18a;
+      padding: 1rem;
+      color: white;
+    }
+
+    header h1 {
+      font-family: 'Brush Script MT', cursive;
+    }
+
+    nav {
+      background-color: #588157;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #dad7cd;
+      padding: 2rem;
+    }
+
+    .hero h2 {
+      margin: 0;
+      color: #3e3e3e;
+    }
+
+    .content {
+      padding: 2rem;
+    }
+
+    .employee, .product {
+      background-color: #fefae0;
+      padding: 1rem;
+      margin: 1rem auto;
+      border-left: 4px solid #a3b18a;
+      max-width: 600px;
+      text-align: left;
+      border-radius: 12px;
+    }
+
+    footer {
+      background-color: #344e41;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    .store-gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .store-gallery img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 0.5rem;
+    }
+
+    .chatbox {
+      background: #fefae0;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: auto;
+    }
+
+    input, button {
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PuppyPawty</h1>
+    <p>All-Natural Dog Treats with Minimal Ingredients</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#employees">Our Team</a>
+    <a href="#store">Treat Store</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#chat">Chat</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Give your pup a healthy Pawty!</h2>
+    <p>Our treats are made with love, simplicity, and your dog's health in mind.</p>
+  </section>
+
+  <section class="content" id="about">
+    <h2>About PuppyPawty</h2>
+    <p>PuppyPawty was founded to bring wholesome joy to dogs everywhere. Our treats are crafted with minimal, clean ingredients — because your furry friend deserves the best.</p>
+  </section>
+
+  <section class="content" id="employees">
+    <h2>Meet Our AI Employees</h2>
+
+    <div class="employee">
+      <h3>Luna - AI Canine Nutritionist</h3>
+      <p>Luna ensures all treat recipes are optimized for nutritional value and taste, balancing health and flavor with algorithmic precision.</p>
+    </div>
+
+    <div class="employee">
+      <h3>Scout - AI Logistics Coordinator</h3>
+      <p>Scout oversees supply chain operations, ensuring ingredients arrive fresh and deliveries run smoothly using real-time optimization.</p>
+    </div>
+
+    <div class="employee">
+      <h3>Daisy - AI Customer Happiness Agent</h3>
+      <p>Daisy is your go-to for questions, feedback, and doggo updates. She uses natural language processing to provide friendly and helpful support 24/7.</p>
+    </div>
+  </section>
+
+  <section class="content" id="store">
+    <h2>Our Treats</h2>
+    <div class="product">
+      <h3>Peanut Butter Bites</h3>
+      <p>Made with just peanut butter, oat flour, and banana. Perfect for pups of all sizes.</p>
+    </div>
+    <div class="product">
+      <h3>Chicken Nibbles</h3>
+      <p>Single-ingredient dehydrated chicken slices. Nothing more, nothing less.</p>
+    </div>
+    <div class="product">
+      <h3>Sweet Potato Chews</h3>
+      <p>Slow-baked sweet potatoes that help with digestion and keep your pup busy.</p>
+    </div>
+  </section>
+
+  <section class="content" id="gallery">
+    <h2>Happy Customers</h2>
+    <div class="store-gallery">
+      <img src="dog1.jpg" alt="Happy Dog 1">
+      <img src="dog2.jpg" alt="Happy Dog 2">
+      <img src="dog3.jpg" alt="Happy Dog 3">
+    </div>
+  </section>
+
+  <section class="content" id="chat">
+    <h2>Chat with Daisy 🐶</h2>
+    <div class="chatbox">
+      <p>Hello! I'm Daisy. How can I help you today?</p>
+      <input type="text" placeholder="Type your question here...">
+      <button>Send</button>
+    </div>
+  </section>
+
+  <section class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: woof@puppypawty.com</p>
+    <p>Instagram: @puppypawtytreats</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PuppyPawty. All rights reserved.</p>
+  </footer>
+</body>
+</html>
